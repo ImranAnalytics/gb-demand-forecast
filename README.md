@@ -19,7 +19,7 @@ Day-ahead forecasting of GB National Demand (ND, MW) for each half-hour settleme
 | Naive (yesterday) | 7.84 | 1,959 | 2,717 |
 | **XGBoost (calendar + demand lags)** | **5.56** | **1,359** | **1,848** |
 | XGBoost (+ lagged embedded solar/wind) | 5.76 | 1,419 | 1,902 |
-
+![One week of actual vs forecast demand](results/week_forecast.png)
 The headline model is 29% lower in MAPE than the best baseline. The model with lagged embedded solar and wind was specified in advance as an ablation, and it did not help: yesterday's solar output says little about tomorrow's.
 
 ## Where the model struggles
