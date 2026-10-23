@@ -1,0 +1,5 @@
+,MAPE_%,MAE_MW,RMSE_MW
+Seasonal naive (last week),8.2,2085.0,2835.0
+Naive (yesterday),7.84,1959.0,2717.0
+XGBoost (calendar + demand lags),5.56,1359.0,1848.0
+XGBoost (+ embedded solar/wind),5.76,1419.0,1902.0
